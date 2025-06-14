@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a0a0a; /* dark black */
+  color: #ffffff; /* white text */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation Bar */
+nav a {
+  color: #ff4d4d; /* red links */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px #ff4d4d; /* glow red on hover */
+  text-decoration: underline;
+}
+
+/* Project Card */
+.project-card {
+  background-color: #1a1a1a; /* dark card background */
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 15px #ff4d4d; /* red glow */
+}
+
+/* Project Title */
+.project-card h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Project Subtitle */
+.project-card h3 {
+  color: #ff4d4d;
+  font-size: 24px;
+}
+
+/* Case Study Link */
+.project-card a {
+  color: #ffffff;
+  background-color: #ff4d4d;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.project-card a:hover {
+  background-color: #ffffff;
+  color: #ff4d4d;
+  box-shadow: 0 0 12px #ff4d4d;
+}
+
+/* Optional Glow Effect Animation */
+.project-card {
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 8px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 15px #ff4d4d;
+  animation: pulseGlow 2s infinite;
+}
+/* Contact Section */
+.contact-section {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.contact-section p {
+  font-size: 18px;
+  color: #bbbbbb;
+}
+
+.contact-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ff4d4d;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-link:hover {
+  background-color: #ffffff;
+  color: #ff4d4d;
+}
